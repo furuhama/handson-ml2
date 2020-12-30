@@ -5,7 +5,7 @@ import os
 import pandas as pd
 import sklearn.linear_model
 
-datapath = os.path.join("datasets", "lifesat", "")
+datapath = os.path.join("..", "datasets", "lifesat", "")
 
 
 def prepare_country_stats(oecd_bli, gdp_per_capita):
